@@ -1,4 +1,3 @@
-<img width="1671" height="803" alt="image" src="https://github.com/user-attachments/assets/74d0a518-764e-4255-bf6e-43b647028dac" /># single-cell-ibd-immune-atlas
 
 Single-cell RNA-seq analysis of immune remodeling in inflammatory bowel disease using Python and Scanpy.
 
