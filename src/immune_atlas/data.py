@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-import scanpy as sc
 
 
 REQUIRED_RAW_FILES = [
@@ -27,6 +26,8 @@ def missing_raw_files(data_dir: str | Path) -> list[str]:
 
 def load_processed_adata(path: str | Path):
     """Load a processed AnnData object from an h5ad file."""
+    import scanpy as sc
+
     path = Path(path)
 
     if not path.exists():

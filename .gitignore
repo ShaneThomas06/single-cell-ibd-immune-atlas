@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local single-cell data and reproducible large outputs
+data/raw/
+data/processed/
+results/tables/cluster_marker_genes_all.csv
+results/pseudobulk/
