@@ -324,3 +324,8 @@ Next steps:
 - Extend the Streamlit dashboard with the validated pseudobulk results
 
 
+
+## Clean-clone smoke checks
+
+See [reproducibility instructions](docs/reproducibility.md) for the minimal
+installation, tests, linting, and command checks used in CI.
